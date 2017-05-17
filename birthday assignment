@@ -1,0 +1,14 @@
+v=input('input your first name : ')
+w=input('input your last name : ')
+x=input('when is your birth day (1-31)? : ')
+y=input('in which month (1-12)? : ')
+z=input('how old are u going to be ? : ')
+mike=2017-(int(z))
+months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+p=months[(int(y))-1]
+days=['st','nd','rd','th','th','th','th','th','th','th','th','th','th','th','th','th','th','th','th','th','st','nd','rd','th','th','th','th','th','th','th','st']
+q=days[(int(x))-1]
+
+import datetime
+r=datetime.date(int(ben),int(y),int(x))
+print('your name is' ,v, ' ' ,w, 'and you were born on' ,x+q, ' ' ,p, ' ' ,mike, 'the week day was a' ,h.strftime('%a'))
